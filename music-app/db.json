@@ -1,0 +1,25 @@
+{
+    "songs": [
+      {
+        "id": 1,
+        "name": "Rush",
+        "artis": "Ayra Starr",
+        "image": "https://en.wikipedia.org/wiki/Rush_%28Ayra_Starr_song%29#/media/File:Ayra_Starr_-_Rush.png",
+        "Listens": 113059
+      },
+      {
+        "id": 2,
+        "name": "Got Me Started",
+        "artist": "Toyye Sivan",
+        "image": "https://en.wikipedia.org/wiki/Got_Me_Started#/media/File:Troye_Sivan_-_Got_Me_Started.png",
+        "Listens": 218046
+      },
+      {
+        "id": 3,
+        "name": "Forget Me",
+        "artist": "Lewis Capaldi",
+        "image": "https://en.wikipedia.org/wiki/Forget_Me#/media/File:Lewis_Capaldi_-_Forget_Me.png",
+        "Listens": 118064
+      }
+    ]
+  }
