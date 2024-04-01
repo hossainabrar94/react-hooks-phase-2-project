@@ -14,7 +14,7 @@ function NavNar(){
             <NavLink to='/artists'>
                 Artists
             </NavLink>
-            <NavLink to='/addsong'>
+            <NavLink to='/new'>
                 Add Song
             </NavLink>
             

@@ -28,7 +28,7 @@ const router = createBrowserRouter([
         element: <Artists />
       },
       {
-        path: '/addsong',
+        path: '/new',
         element: <AddSongForm />
       },
     ]
