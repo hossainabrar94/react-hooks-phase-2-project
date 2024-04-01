@@ -7,7 +7,7 @@ import ErrorPage from './pages/ErrorPage';
 import Library from './pages/Library';
 import Playlists from './pages/Playlists';
 import Artists from './pages/Artists';
-import Genres from './pages/Genres';
+import AddSongForm from './pages/AddSongForm';
 
 const router = createBrowserRouter([
   {
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
         element: <Artists />
       },
       {
-        path: '/genre',
-        element: <Genres />
+        path: '/addsong',
+        element: <AddSongForm />
       },
     ]
   }
