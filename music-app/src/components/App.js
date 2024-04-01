@@ -13,6 +13,8 @@ function App() {
     .then(json => setSongs(json))
   },[])
 
+  console.log(songs)
+
   return (
     <div className="App">
       <header >
