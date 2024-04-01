@@ -1,10 +1,11 @@
 import './App.css';
+import NavNar from './NavBar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Hello
+      <header >
+        <NavNar/>
       </header>
     </div>
   );
