@@ -5,7 +5,7 @@ function AddSongForm(){
         name: "",
         artist: "",
         image: "",
-        Listens: ""
+        Listens: Math.floor(Math.random() * (1000000 - 10001)) + 10001
     })
 
     return (
