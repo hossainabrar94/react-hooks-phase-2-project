@@ -11,9 +11,10 @@ function NavNar(){
             <NavLink to='/playlists'>
                 Playlists
             </NavLink>
-            <NavLink to='/genres'>
-                Genres
+            <NavLink to='/addsong'>
+                Add Song
             </NavLink>
+            
 
         </nav>
     )
