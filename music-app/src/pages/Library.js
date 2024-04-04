@@ -1,10 +1,9 @@
-import { useOutletContext, Link } from "react-router-dom";
+import { useOutletContext } from "react-router-dom";
 
 function Library(){
 
     //Display all songs
     const songs = useOutletContext()
-    // console.log(songs)
 
     return (
         <main>
@@ -13,7 +12,7 @@ function Library(){
                 {songs.map((song, index) => (
                     <div key={index} className="song-box">
                         <h2>
-                            <Link to={`/songs/${song.id}`}>{song.name}</Link>
+                            {song.name}
                         </h2>,
                         <img src={song.image} />,
                         <p>{song.artist}</p>

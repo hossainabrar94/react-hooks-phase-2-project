@@ -25,7 +25,7 @@ const router = createBrowserRouter([
         element: <Playlists />,
         children:[
           {
-            path: 'playlists/:genre',
+            path: ':songGenre',
             element: <SongByGenre />
           }
         ]
