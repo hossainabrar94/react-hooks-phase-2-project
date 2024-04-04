@@ -4,7 +4,9 @@ function AddSongForm(){
     const[newSong, setNewSong] = useState({
         name: "",
         artist: "",
+        genre:"",
         image: "",
+        bio: "",
         Listens: Math.floor(Math.random() * (1000000 - 10001)) + 10001
     })
 

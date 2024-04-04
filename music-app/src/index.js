@@ -8,6 +8,7 @@ import Library from './pages/Library';
 import Playlists from './pages/Playlists';
 import Artists from './pages/Artists';
 import AddSongForm from './pages/AddSongForm';
+import SongByGenre from './pages/SongByGenre';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,13 @@ const router = createBrowserRouter([
       },
       {
         path: '/playlists',
-        element: <Playlists />
+        element: <Playlists />,
+        children:[
+          {
+            path: 'playlists/:genre',
+            element: <SongByGenre />
+          }
+        ]
       },
       {
         path: '/artists',
@@ -30,7 +37,7 @@ const router = createBrowserRouter([
       {
         path: '/new',
         element: <AddSongForm />
-      },
+      }
     ]
   }
 ])

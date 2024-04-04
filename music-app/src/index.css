@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.song-box {
+  border: 2px solid #000000; 
+  margin: 20px auto; 
+  max-width: 350px;
+}
+
+.artist-box {
+  border: 2px solid #000000; 
+  margin: 10px auto; 
+  max-width: 200px;
+}
