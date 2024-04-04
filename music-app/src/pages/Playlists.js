@@ -1,4 +1,4 @@
-import { useOutletContext, Outlet, Link } from "react-router-dom";
+import { useOutletContext, Outlet, useNavigate } from "react-router-dom";
 
 function Playlists(){
 
@@ -6,6 +6,7 @@ function Playlists(){
     const songs = useOutletContext()
 
     const genres = songs.map(song => song.genre)
+    const navigate = useNavigate()
     const uniqueGenres = genres.filter((genre, index) => {
         return genres.indexOf(genre) === index
     })
@@ -15,18 +16,21 @@ function Playlists(){
         uniqueGenres,
       };
 
+      function handleSelectChange(e){
+        const selectedGenre = e.target.value
+        navigate(`/playlists/${selectedGenre}`)
+      }
+
     return(
         <main>
-                        <Outlet context = {contextValue}/>
             <h1>Playlist</h1>
-
-            {uniqueGenres.map((genre, index) => (
-                <div key={index}>
-                    <h2>
-                    <Link to={`/playlists/${genre}`} style={{textDecoration: 'none'}}>{genre}</Link>
-                    </h2>
-                </div>
-            ))}
+            <select onChange={handleSelectChange}>
+                <option value=''>Choose a Genre</option>
+                {uniqueGenres.map((genre, index) => (
+                    <option key={index} value={genre}>{genre}</option>
+                ))}
+            </select>
+            <Outlet context = {contextValue}/>
         </main>
     )
 }
