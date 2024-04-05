@@ -1,12 +1,16 @@
 import { useState } from "react";
+import { useOutletContext } from "react-router-dom";
 
 function AddSongForm(){
+
+    const {setSongs} = useOutletContext()
+
     const[newSong, setNewSong] = useState({
         name: "",
         artist: "",
         genre:"",
         image: "",
-        Listens: Math.floor(Math.random() * (1000000 - 10001)) + 10001
+        listens: Math.floor(Math.random() * (1000000 - 10001)) + 10001
     })
     
     function handleChange(e){
@@ -17,7 +21,19 @@ function AddSongForm(){
     }
 
     function handleSubmit(){
-
+        fetch('http://localhost:3000/songs' ,{
+            method: 'POST',
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                name: newSong.name,
+                artist: newSong.artist,
+                genre: newSong.genre,
+                image: newSong.image,
+                listens: newSong.listens
+            })
+        })
+        .then(resp => resp.json())
+        .then(json => )
     }
 
     return (

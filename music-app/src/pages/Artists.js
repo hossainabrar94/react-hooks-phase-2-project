@@ -2,7 +2,7 @@ import { useOutletContext } from "react-router-dom";
 
 function Artists(){
     
-    const songs = useOutletContext()
+    const {songs} = useOutletContext()
 
     const artists = songs.map(song => song.artist)
 

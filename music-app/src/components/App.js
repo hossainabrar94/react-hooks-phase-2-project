@@ -14,13 +14,17 @@ function App() {
   },[])
 
   // console.log(songs)
+  const contextProps = {
+    songs,
+    setSongs
+  }
 
   return (
     <div className="App">
       <header >
         <NavNar/>
       </header>
-      <Outlet context={songs}/>
+      <Outlet context={contextProps}/>
     </div>
   );
 }

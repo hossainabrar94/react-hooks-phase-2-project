@@ -3,7 +3,7 @@ import { useOutletContext, Outlet, useNavigate } from "react-router-dom";
 function Playlists(){
 
     // Display playlist based on genres
-    const songs = useOutletContext()
+    const {songs} = useOutletContext()
 
     const genres = songs.map(song => song.genre)
     const navigate = useNavigate()

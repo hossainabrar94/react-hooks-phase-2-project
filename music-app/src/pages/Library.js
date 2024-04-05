@@ -3,7 +3,7 @@ import { useOutletContext } from "react-router-dom";
 function Library(){
 
     //Display all songs
-    const songs = useOutletContext()
+    const {songs} = useOutletContext()
 
     return (
         <main>

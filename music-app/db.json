@@ -6,7 +6,7 @@
         "artist": "Ayra Starr",
         "genre": "R&B",
         "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Ayra_Starr_-_Rush.png",
-        "Listens": 113059
+        "listens": 113059
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "artist": "Troye Sivan",
         "genre": "Pop",
         "image": "https://upload.wikimedia.org/wikipedia/en/4/43/Troye_Sivan_-_Got_Me_Started.png",
-        "Listens": 218046
+        "listens": 218046
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "artist": "Lewis Capaldi",
         "genre": "Pop",
         "image": "https://upload.wikimedia.org/wikipedia/en/a/ac/Lewis_Capaldi_-_Forget_Me.png",
-        "Listens": 118064
+        "listens": 118064
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "artist": "Libianca",
         "genre": "R&B",
         "image": "https://upload.wikimedia.org/wikipedia/en/3/3a/People_by_Libianca.png",
-        "Listens": 4503972
+        "listens": 4503972
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "artist": "Troye Sivan",
         "genre": "R&B",
         "image": "https://upload.wikimedia.org/wikipedia/en/4/43/Troye_Sivan_-_Got_Me_Started.png",
-        "Listens": 518046
+        "listens": 518046
       }
     ]
   }
