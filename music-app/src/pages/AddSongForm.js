@@ -33,7 +33,7 @@ function AddSongForm(){
             })
         })
         .then(resp => resp.json())
-        .then(json => setSongs({...songs, json}))
+        .then(json => setSongs([...songs, json]))
     }
 
     return (
