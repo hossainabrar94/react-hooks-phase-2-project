@@ -14,7 +14,7 @@ function Library(){
                         <h2>
                             {song.name}
                         </h2>,
-                        <img src={song.image} />,
+                        <img src={song.image} className="image-box"/>,
                         <p>{song.artist}</p>
                     </div>
                 ))}
