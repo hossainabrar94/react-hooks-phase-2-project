@@ -16,7 +16,7 @@ function Library(){
                         </h2>
                         <img src={song.image} className="image-box"/>
                         <h4>{song.artist}</h4>
-                        <p>Listens: {song.listens}</p>
+                        <p>Listens: {song.listens.toLocaleString()}</p>
                     </div>
                 ))}
             </article>
