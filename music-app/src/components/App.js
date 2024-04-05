@@ -13,7 +13,6 @@ function App() {
     .then(json => setSongs(json))
   },[])
 
-  // console.log(songs)
   const contextProps = {
     songs,
     setSongs

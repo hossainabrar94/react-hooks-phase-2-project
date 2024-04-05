@@ -47,6 +47,14 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Drake-Controlla-2016.jpg",
       "listens": 278471,
       "id": 6
+    },
+    {
+      "name": "Lonely",
+      "artist": "Akon",
+      "genre": "R&B",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Akon-Lonely.jpg",
+      "listens": 130290,
+      "id": 7
     }
   ]
 }
