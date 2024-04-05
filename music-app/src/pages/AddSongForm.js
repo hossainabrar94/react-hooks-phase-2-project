@@ -3,7 +3,7 @@ import { useOutletContext } from "react-router-dom";
 
 function AddSongForm(){
 
-    const {setSongs} = useOutletContext()
+    const {songs, setSongs} = useOutletContext()
 
     const[newSong, setNewSong] = useState({
         name: "",
@@ -33,7 +33,7 @@ function AddSongForm(){
             })
         })
         .then(resp => resp.json())
-        .then(json => )
+        .then(json => setSongs({...songs, json}))
     }
 
     return (

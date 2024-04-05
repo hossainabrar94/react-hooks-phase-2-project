@@ -1,44 +1,52 @@
 {
-    "songs": [
-      {
-        "id": 1,
-        "name": "Rush",
-        "artist": "Ayra Starr",
-        "genre": "R&B",
-        "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Ayra_Starr_-_Rush.png",
-        "listens": 113059
-      },
-      {
-        "id": 2,
-        "name": "Got Me Started",
-        "artist": "Troye Sivan",
-        "genre": "Pop",
-        "image": "https://upload.wikimedia.org/wikipedia/en/4/43/Troye_Sivan_-_Got_Me_Started.png",
-        "listens": 218046
-      },
-      {
-        "id": 3,
-        "name": "Forget Me",
-        "artist": "Lewis Capaldi",
-        "genre": "Pop",
-        "image": "https://upload.wikimedia.org/wikipedia/en/a/ac/Lewis_Capaldi_-_Forget_Me.png",
-        "listens": 118064
-      },
-      {
-        "id": 4,
-        "name": "People",
-        "artist": "Libianca",
-        "genre": "R&B",
-        "image": "https://upload.wikimedia.org/wikipedia/en/3/3a/People_by_Libianca.png",
-        "listens": 4503972
-      },
-      {
-        "id": 5,
-        "name": "Angel Baby",
-        "artist": "Troye Sivan",
-        "genre": "R&B",
-        "image": "https://upload.wikimedia.org/wikipedia/en/4/43/Troye_Sivan_-_Got_Me_Started.png",
-        "listens": 518046
-      }
-    ]
-  }
+  "songs": [
+    {
+      "id": 1,
+      "name": "Rush",
+      "artist": "Ayra Starr",
+      "genre": "R&B",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Ayra_Starr_-_Rush.png",
+      "listens": 113059
+    },
+    {
+      "id": 2,
+      "name": "Got Me Started",
+      "artist": "Troye Sivan",
+      "genre": "Pop",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/43/Troye_Sivan_-_Got_Me_Started.png",
+      "listens": 218046
+    },
+    {
+      "id": 3,
+      "name": "Forget Me",
+      "artist": "Lewis Capaldi",
+      "genre": "Pop",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ac/Lewis_Capaldi_-_Forget_Me.png",
+      "listens": 118064
+    },
+    {
+      "id": 4,
+      "name": "People",
+      "artist": "Libianca",
+      "genre": "R&B",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3a/People_by_Libianca.png",
+      "listens": 4503972
+    },
+    {
+      "id": 5,
+      "name": "Angel Baby",
+      "artist": "Troye Sivan",
+      "genre": "R&B",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/43/Troye_Sivan_-_Got_Me_Started.png",
+      "listens": 518046
+    },
+    {
+      "name": "Controller",
+      "artist": "Drake",
+      "genre": "Pop",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Drake-Controlla-2016.jpg",
+      "listens": 278471,
+      "id": 6
+    }
+  ]
+}

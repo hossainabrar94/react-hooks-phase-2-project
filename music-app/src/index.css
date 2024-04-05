@@ -23,3 +23,9 @@ code {
   margin: 10px auto; 
   max-width: 200px;
 }
+
+.image-box {
+  border: 2px solid #000000; 
+  margin: 10px auto; 
+  max-width: 300px;
+}
