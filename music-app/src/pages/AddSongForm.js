@@ -20,7 +20,9 @@ function AddSongForm(){
         })
     }
 
-    function handleSubmit(){
+    function handleSubmit(e){
+        e.preventDefault()
+
         fetch('http://localhost:3000/songs' ,{
             method: 'POST',
             headers: { "Content-Type": "application/json" },

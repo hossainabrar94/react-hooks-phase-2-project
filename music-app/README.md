@@ -28,3 +28,9 @@ Per Phase 2 project requirements, the app is required to satisfy the following:
 - View List of artists
 - Add new songs to library/API
 - Clean UI
+
+
+
+## Resources
+
+- images were taken from https://en.wikipedia.org/wiki/
