@@ -22,6 +22,8 @@ function AddSongForm(){
                         value={newSong.name}
                     />
                 </label>
+                <br />
+                <br />
                 <label>
                     Artist: 
                     <input 
@@ -31,6 +33,8 @@ function AddSongForm(){
                         value={newSong.artist}
                     />
                 </label>
+                <br />
+                <br />
                 <label>
                     Genre: 
                     <input 
@@ -40,6 +44,8 @@ function AddSongForm(){
                         value={newSong.genre}
                     />
                 </label>
+                <br />
+                <br />
                 <label>
                     image: 
                     <input 
@@ -49,7 +55,9 @@ function AddSongForm(){
                         value={newSong.image}
                     />
                 </label>
-                
+                <br />
+                <br />
+                <button type="submit">Add to Library</button>
             </form>
         </section>
     )
