@@ -20,3 +20,11 @@ Per Phase 2 project requirements, the app is required to satisfy the following:
     - Upon return of json from your POST request, a state update by a setState function is required!
 
 5) Add some styling: you're encouraged to write your CSS from scratch, either by using styled components or writing CSS files and using id/className to style your elements. You can also incorporate a UI framework (like React Bootstrap, Semantic UI, or Material UI) if you prefer.
+
+#### Features
+- SPA
+- Client-side routing navigating through pages/components
+- Dynamic Client-side routing to view playlists by genre
+- View List of artists
+- Add new songs to library/API
+- Clean UI
