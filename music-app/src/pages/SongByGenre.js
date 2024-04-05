@@ -1,17 +1,11 @@
 import { useParams, useOutletContext } from "react-router-dom";
 import { useState, useEffect } from "react";
-import NavNar from "../components/NavBar";
 
 function SongByGenre(){
 
     const [genreSongs, setGenreSong] = useState([])
-    const params = useParams()
-    const songGenre = params.songGenre
+    const songGenre = useParams().songGenre
     const {songs, uniqueGenres} = useOutletContext()
-
-    console.log(songGenre)
-    console.log(songs)
-    console.log(genreSongs)
 
     useEffect(()=>{
         const filteredSongs = songs.filter(song => song.genre === songGenre);
