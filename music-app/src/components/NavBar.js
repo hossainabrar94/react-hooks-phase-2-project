@@ -17,8 +17,6 @@ function NavNar(){
             <NavLink to='/new'>
                 Add Song
             </NavLink>
-            
-
         </nav>
     )
 }

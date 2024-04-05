@@ -5,7 +5,7 @@ function SongByGenre(){
 
     const [genreSongs, setGenreSong] = useState([])
     const songGenre = useParams().songGenre
-    const {songs, uniqueGenres} = useOutletContext()
+    const {songs} = useOutletContext()
 
     useEffect(()=>{
         const filteredSongs = songs.filter(song => song.genre === songGenre);
