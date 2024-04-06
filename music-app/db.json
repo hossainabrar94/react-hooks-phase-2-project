@@ -58,11 +58,83 @@
     },
     {
       "name": "Night Changes",
-      "artist": "One DIrection",
+      "artist": "One Direction",
       "genre": "Rock",
       "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/One_Direction_-_Night_Changes_Single_Cover.png",
       "listens": 413794,
       "id": 8
+    },
+    {
+      "name": "You and I",
+      "artist": "One Direction",
+      "genre": "hip hop",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/One_Direction_-_You_And_I_%28Official%29.png",
+      "listens": 717279,
+      "id": 9
+    },
+    {
+      "name": "Story of my life",
+      "artist": "One Direction",
+      "genre": "dancehall",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7d/One_Direction_-_Story_of_My_Life_%28Official_Single_Cover%29.png",
+      "listens": 872590,
+      "id": 10
+    },
+    {
+      "name": "One Dance",
+      "artist": "Drake",
+      "genre": "punk",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/DrakeOneDance.png",
+      "listens": 90992,
+      "id": 11
+    },
+    {
+      "name": "Take Care",
+      "artist": "Drake",
+      "genre": "trap",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/Drake_-_Take_Care_cover.jpg",
+      "listens": 756922,
+      "id": 12
+    },
+    {
+      "name": "Headlines",
+      "artist": "Drake",
+      "genre": "drill",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Headlines.png",
+      "listens": 616655,
+      "id": 13
+    },
+    {
+      "name": "df",
+      "artist": "dfs",
+      "genre": "sdfs",
+      "image": "sdfsd",
+      "listens": 425914,
+      "id": 14
+    },
+    {
+      "name": "dfs",
+      "artist": "sdfs",
+      "genre": "sdfs",
+      "image": "sdfsd",
+      "listens": 58784,
+      "id": 15
+    },
+    {
+      "name": "sfdw",
+      "artist": "ewrwe",
+      "genre": "werwe",
+      "image": "werwe",
+      "listens": 622176,
+      "id": 16
+    },
+    {
+      "name": "frwe",
+      "artist": "wfw",
+      "genre": "wef",
+      "image": "wef",
+      "listens": 402710,
+      "id": 17
     }
   ]
 }

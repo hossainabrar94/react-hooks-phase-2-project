@@ -5,13 +5,15 @@ function AddSongForm(){
 
     const {songs, setSongs} = useOutletContext()
 
-    const[newSong, setNewSong] = useState({
+    const initialNewSongState = {
         name: "",
         artist: "",
         genre:"",
         image: "",
         listens: Math.floor(Math.random() * (1000000 - 10001)) + 10001
-    })
+    }
+
+    const[newSong, setNewSong] = useState(initialNewSongState)
     
     function handleChange(e){
         setNewSong({
@@ -36,6 +38,7 @@ function AddSongForm(){
         })
         .then(resp => resp.json())
         .then(json => setSongs([...songs, json]))
+        setNewSong(initialNewSongState)
     }
 
     return (
