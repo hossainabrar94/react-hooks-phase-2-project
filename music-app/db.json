@@ -103,38 +103,6 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Headlines.png",
       "listens": 616655,
       "id": 13
-    },
-    {
-      "name": "df",
-      "artist": "dfs",
-      "genre": "sdfs",
-      "image": "sdfsd",
-      "listens": 425914,
-      "id": 14
-    },
-    {
-      "name": "dfs",
-      "artist": "sdfs",
-      "genre": "sdfs",
-      "image": "sdfsd",
-      "listens": 58784,
-      "id": 15
-    },
-    {
-      "name": "sfdw",
-      "artist": "ewrwe",
-      "genre": "werwe",
-      "image": "werwe",
-      "listens": 622176,
-      "id": 16
-    },
-    {
-      "name": "frwe",
-      "artist": "wfw",
-      "genre": "wef",
-      "image": "wef",
-      "listens": 402710,
-      "id": 17
     }
   ]
 }
